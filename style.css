@@ -1,0 +1,121 @@
+/* Top player style */
+
+/* fonts style */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: gainsboro
+
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+
+
+}
+hr{
+
+ border: 1px solid #D1D1D1;   
+ margin-bottom: 27px;
+}
+
+.topone-players{
+
+    margin-bottom: 30px;
+}
+
+.section-title{
+    font-size: 24px;
+    color: blue;
+    margin-top: 3px;
+}
+
+.top-players{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.top-player{
+
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.top-player img{
+
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+margin: 16px;
+
+}
+
+/* ---------------
+
+                     Top Blogs
+
+           --------------------- */
+
+           .blogs{
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 26px;
+           }
+
+           .blog{
+               display: flex;
+           }
+  .blog img{
+width: 125px;
+
+
+  }
+  .blog-info{
+
+    margin-left: 16px;
+
+  }
+  .blog-title{
+      font-size: 16px;
+  }
+  .blog-author{
+      font-size: 12px;
+
+  }
+.blog-author a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #9f9f9f;
+}
+
+
+/* ----------
+       coures style
+               -------------- */
+               .course .course-banner img{
+                   width: 224px;
+                   height: 104px;
+               }
+
+               .courses{
+
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-column-gap:24px;
+                
+
+               }
+               
